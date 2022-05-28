@@ -6,15 +6,6 @@ function ContactForm({ onSubmit }) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
-  // /     handleSubmit = (event) => {
-  //         event.preventDefault();
-  //         this.props.onSubmit(this.state);
-  //         this.setState({
-  //             name: '',
-  //             number: '',
-  //         })
-  //     }
-
   const handleSubmit = event => {
     event.preventDefault();
 
